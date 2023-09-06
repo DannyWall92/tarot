@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>Tarot Card Meanings</title>
+        <style>
+            .layout {
+                display: none;
+                width: 90%;
+            }
+            select{
+                font-size: 20px;
+            }
+            select option {
+                font-size: 20px;
+            }
+            input {
+                font-size: 20px;
+            }
+            .layoutselect {
+                border-radius: 20px;
+                background-color: aquamarine;
+                padding: 20px;
+                width: 600px;
+                margin: 0 auto;
+            }
+            .header{
+                margin: 0;
+                width: 100%;
+                height: 100px;
+                background-color: aquamarine;
+                padding: 50px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Tarot Card Meaning Helper</h1>
+        </div>
+        <p>&nbsp;</p><p>&nbsp;</p>
+        <div class="layoutselect">
+            <h2>Step 1:<br />Select Your Layout Below</h2>
+            <form action="step2.php" method="GET">
+                <select name="layoutselect" id="layoutselect">
+                    <option value="none">Select Layout</option>
+                    <option value="ThreeCard">Basic 3 Across</option>
+                    <option value="FiveAcross">Basic 5 Across</option>
+                    <option value="FourDirections">The 4 Directions (coming soon)</option>
+                    <option value="FiveCardCross">5 Card Cross (coming soon)</option>
+                    <option value="SevenHorseshoe">7 Card Horseshoe (coming soon)</option>
+                    <option value="CelticCross">Celtic Cross (coming soon)</option>
+                    <option value="Crowley">15 Card Crowley</option>
+                </select>
+                <input type="submit" name="submit" value="Step 2 >>" />
+            </form>
+            <p style="font-size: 18px;">This utility is meant to give a tarot reader a simple method to provide information to someone about their reading. Currently useful for the Crowley Thoth deck, but I will be adding more decks soon.</p>
+        </div>
+    </body>
+</html>

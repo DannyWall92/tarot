@@ -1,0 +1,6 @@
+[09-Sep-2022 13:41:18 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home3/dew/public_html/tarot/getcardinfo.php on line 17
+[09-Sep-2022 13:43:03 America/Chicago] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'dew_thoth'@'localhost' (using password: YES) in /home3/dew/public_html/tarot/getcardinfo.php on line 6
+[09-Sep-2022 13:43:03 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home3/dew/public_html/tarot/getcardinfo.php on line 15
+[09-Sep-2022 13:43:03 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home3/dew/public_html/tarot/getcardinfo.php on line 16
+[10-Sep-2022 14:50:34 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home3/dew/public_html/tarot/step2.php on line 102
+[12-Sep-2022 15:48:56 America/Chicago] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home3/dew/public_html/tarot/card_insert.php on line 44
