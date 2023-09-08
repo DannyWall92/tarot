@@ -3,6 +3,8 @@ A simple app for displaying the meaning of Tarot cards in a layout. The app is i
 
 The SQL file to create the database is not included, if you would like it, please just send an email to danny@dewdevelopment.com and I'll send it to you. Seriously, the process of doing the data entry for each card is a bit tedious. In asking for the SQL I will include the card details for the Crawley deck.
 
+Just as importantly there are missing "cyber security" items with the code that also need to be added to prevent SQL injection, XSLT, and other attacks.
+
 Installation is quite easy:
 1) Create the database and tables needed (again, you can get the SQL from me)
 2) Modify the config.php file to contain your details
